@@ -3,37 +3,86 @@
     <head>
         <meta charset="utf-8">
         <title>Oatmeal, chocolate and banana cookies</title>
-        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href="../styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     </head>
 
     <body>
+        <div class="logo">
+            <a href="../index.html"><img id="logo" src="../images/logo.png" alt="logo"></a>
+        </div>
+    
+        <nav class="nav-recipes">
+            <ul>
+                <div class="items">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html">Recipes</a></li>
+                    <li><a href="../index.html">Vegan</a></li>
+                </div>
+                <!--<div class="wrapper"><input type="text" id="text"><input type="submit" value="Search"></div>-->
+                <li class="search-icon">
+                    <input type="text" id="text">
+                    <input type="submit" id="submit" value="Search">
+                </li>
+            </ul>
+        </nav>
+
+
         <h1>Oatmeal, chocolate and banana cookies</h1>
-        <img src="../images/cookies-avena.jpg" alt="Oatmeal cookies">
-
-        <h2>Description</h2>
-        <p>Today I propose you this wonderful and simple recipe for some 
-            delicious oatmeal, chocolate and banana cookies that are really ideal 
-            for all of us. Its preparation is fast and proof of any person, even 
-            if you are not very skilled or skilled in baking.</p>
         
-        <h2>Ingredients</h2>
-        <ul>
-            <li>3 bananas</li>
-            <li>120 gr oatmeal</li>
-            <li>Cocoa powder</li>
-        </ul>
+        <div class="content">
+            <div class="left">
+                <img src="../images/cookies-avena.jpg" alt="Cookies">
+                <div class="ingredients">
+                    <h3>Ingredients (for 4 servings):</h3>
+                    <ul>
+                        <li>3 bananas</li>
+                        <li>120 gr oatmeal</li>
+                        <li>Cocoa powder</li>
+                    </ul>
+                </div>
+            </div>
 
-        <h2>Steps</h2>
-        <ol>
-            <li>We peel the bananas and mash them in a bowl.</li>
-            <li>We add the cocoa powder and mix well, and add the oats. We stir until 
-                obtaining the consistency of a paste.</li>
-            <li>We create some balls the size of a coffee spoon. We place them on a 
-                baking sheet previously greased with butter or covered with non-stick 
-                paper. With our fingers we lightly squash the balls of dough to shape 
-                the cookies.</li>
-            <li>Bake at 180ºC for about 20 minutes. Remove from the oven and let them 
-                warm before removing the cookies from the tray. Ready!</li>
-        </ol>
+            <div class="right">
+                <div class="right-top">
+                    <h3>Description</h3>
+                    <p>Today I propose you this wonderful and simple recipe for some 
+                        delicious oatmeal, chocolate and banana cookies that are really ideal 
+                        for all of us. Its preparation is fast and proof of any person, even 
+                        if you are not very skilled or skilled in baking.</p>
+                    <div class="column-recipe">
+                        <p>
+                            <span class="bold">Elaboration</span>
+                            <span class="light">2''</span>
+                        </p>
+                        <p>
+                            <span class="bold">Servings</span>
+                            <span class="light">12</span>
+                        </p>
+                        <p>
+                            <span class="bold">Difficulty</span>
+                            <span class="light">Medium</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="right-bottom">
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>We peel the bananas and mash them in a bowl.</li>
+                        <li>We add the cocoa powder and mix well, and add the oats. We stir until 
+                            obtaining the consistency of a paste.</li>
+                        <li>We create some balls the size of a coffee spoon. We place them on a 
+                            baking sheet previously greased with butter or covered with non-stick 
+                            paper. With our fingers we lightly squash the balls of dough to shape 
+                            the cookies.</li>
+                        <li>Bake at 180ºC for about 20 minutes. Remove from the oven and let them 
+                            warm before removing the cookies from the tray. Ready!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

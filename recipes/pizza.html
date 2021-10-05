@@ -3,46 +3,98 @@
     <head>
         <meta charset="utf-8">
         <title>Pizza</title>
-        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href="../styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <h1>Pizza</h1>
-        <img src="../images/pizza.jpg" alt="Pizza">
-        <h2>Description</h2>
-        <p>Today I propose you this delicious and practical homemade pizza recipe.
-            There is nothing richer.</p>
-        <h2>Ingredients</h2>
-        <ul>
-            <li>1 kg flour 000</li>
-            <li>2 cups of water</li>
-            <li>50 gr of fresh yeast</li>
-            <li>1 tablespoon of sugar</li>
-            <li>1 tablespoon of salt</li>
-            <li>4 tablespoon of olive oil</li>
-        </ul>
-        <h2>Steps</h2>
-        <ol>
-            <li>In a bowl or cup place the yeast and half a cup of warm water, 
-                add the tablespoon of sugar. Mix well until bubbles form. Cover 
-                and let rise for about 10 minutes.</li>
-            <li>In another bowl, place the flour and mix it with the salt. Make 
-                a hole in the center, and then dump the yeast. Add the rest of 
-                the warm water and the oil. Join all the ingredients with your 
-                hands to form a dough.</li>
-            <li>Let the pizza dough rest for about 15 minutes, and then knead it 
-                on a table with flour. Divide the dough into four buns of the 
-                same size.</li>
-            <li>Roll out the dough into a circle. Put the dough in a pizza pan, 
-                let it rest in a warm place until it rises a little. Approximately 
-                15 minutes.</li>
-            <li>Add a generous tablespoon of tomato sauce and place in a strong 
-                oven for about 6 minutes. This is very important so that the 
-                pizza dough is well cooked.</li>
-            <li>Then, add another tablespoon of tomato sauce, and on top of it 
-                the cheese, tomatoes, olives and oregano. (or the ingredients 
-                that you like the most). Bake until the cheese melts, and voila!</li>
+        <div class="logo">
+            <a href="../index.html"><img id="logo" src="../images/logo.png" alt="logo"></a>
+        </div>
+    
+        <nav class="nav-recipes">
+            <ul>
+                <div class="items">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html">Recipes</a></li>
+                    <li><a href="../index.html">Vegan</a></li>
+                </div>
+                <!--<div class="wrapper"><input type="text" id="text"><input type="submit" value="Search"></div>-->
+                <li class="search-icon">
+                    <input type="text" id="text">
+                    <input type="submit" id="submit" value="Search">
+                </li>
+            </ul>
+        </nav>
 
-        </ol>
+
+        <h1>Pizza</h1>
+
+        <div class="content">
+            <div class="left">
+                <img src="../images/pizza-2.jpg" alt="Pizza">
+                <div class="ingredients">
+                    <h3>Ingredients (for 8 servings):</h3>
+                    <ul>
+                        <li>1 kg flour 000</li>
+                        <li>2 cups of water</li>
+                        <li>50 gr of fresh yeast</li>
+                        <li>1 tablespoon of sugar</li>
+                        <li>1 tablespoon of salt</li>
+                        <li>4 tablespoon of olive oil</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="right-top">
+                    <h3>Description</h3>
+                    <p>Today I propose you this delicious and practical homemade pizza recipe.
+                        There is nothing richer.</p>
+                    <div class="column-recipe">
+                        <p>
+                            <span class="bold">Elaboration</span>
+                            <span class="light">2''</span>
+                        </p>
+                        <p>
+                            <span class="bold">Servings</span>
+                            <span class="light">12</span>
+                        </p>
+                        <p>
+                            <span class="bold">Difficulty</span>
+                            <span class="light">Medium</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="right-bottom">
+                    <h3>Steps:</h3>
+                    <ol>
+                        <li>In a bowl or cup place the yeast and half a cup of warm water, 
+                            add the tablespoon of sugar. Mix well until bubbles form. Cover 
+                            and let rise for about 10 minutes.</li>
+                        <li>In another bowl, place the flour and mix it with the salt. Make 
+                            a hole in the center, and then dump the yeast. Add the rest of 
+                            the warm water and the oil. Join all the ingredients with your 
+                            hands to form a dough.</li>
+                        <li>Let the pizza dough rest for about 15 minutes, and then knead it 
+                            on a table with flour. Divide the dough into four buns of the 
+                            same size.</li>
+                        <li>Roll out the dough into a circle. Put the dough in a pizza pan, 
+                            let it rest in a warm place until it rises a little. Approximately 
+                            15 minutes.</li>
+                        <li>Add a generous tablespoon of tomato sauce and place in a strong 
+                            oven for about 6 minutes. This is very important so that the 
+                            pizza dough is well cooked.</li>
+                        <li>Then, add another tablespoon of tomato sauce, and on top of it 
+                            the cheese, tomatoes, olives and oregano. (or the ingredients 
+                            that you like the most). Bake until the cheese melts, and voila!</li>
+            
+                    </ol>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
