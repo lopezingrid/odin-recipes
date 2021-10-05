@@ -1,3 +1,159 @@
 * {
-    font-family: arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    margin: 50px; 
+}
+
+.recipe-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(197, 62, 0);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 75px;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 500px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 8px;
+}
+
+.recipe img:hover {
+    border-radius: 12px;
+    transform: scale(1.03);
+    box-shadow: 0 0 5px rgb(46, 51, 46);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 0;
+}
+
+nav.nav-recipes {
+    padding-bottom: 20px;   
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(238, 236, 236);
+}
+
+nav ul div.items {
+    display: inline-flex;
+    padding: 8px 12px;
+}
+
+nav ul div.items a {
+    text-decoration: none;
+    padding: 0px 12px;
+}
+
+nav ul .search-icon {
+    height: 30px;
+    width: 240px;
+    display: flex;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 30px;
+    margin: 25px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width:420px;
+    height: 1610px;
+}
+
+.ingredients {
+    flex-direction: column;
+    display: flex;
+    /*border: 1px solid rgb(170, 169, 169);*/
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 0 20px 20px 30px;
+    background-color: rgb(241, 236, 236);
+    height: 600px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top,
+.right-bottom {
+    /*border: 1px solid rgb(170, 169, 169);*/
+    border-radius: 10px;
+    margin-bottom: 28px;
+    padding: 0 25px 20px 25px;
+    background-color: rgb(241, 236, 236);  
+}
+
+.right-top {
+    height: 484px;
+}
+
+.right-bottom {
+    height: 600px;
+}
+
+.bold {
+    display: block;
+    font-weight: bold;
 }
