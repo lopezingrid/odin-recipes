@@ -3,15 +3,51 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <img src="images/anime-cook.gif" alt="dog-cooking">
-        <h2><a href="recipes/potato-gnocchi.html">Potato Gnocchi</a></h2>
-        <h2><a href="recipes/pizza.html">Pizza</a></h2>
-        <h2><a href="recipes/cookies.html">Oatmeal, chocolate and banana
-            cookies</a></h2>   
+        <div class="logo">
+            <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+        </div> 
+
+        <nav>
+            <ul>
+                <div class="items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Recipes</a></li>
+                    <li><a href="index.html">Vegan</a></li>
+                </div>
+                <!--<div class="wrapper"><input type="text" id="text"><input type="submit" value="Search"></div> -->
+                <li class="search-icon">
+                    <input type="text" id="text">
+                    <input type="submit" id="submit" value="Search">
+                </li>
+            </ul>
+        </nav>
+
+        <h1 class="heading">Odin Recipes</h1>
+
+        <div class="recipes">
+            <div class="recipe">
+                <a href="recipes/potato-gnocchi.html"><img src="images/ñoquis-2.jpg" alt="gnocchis"></a>
+                <a href="recipes/potato-gnocchi.html"><p class="recipe-title">Potato Gnocchis</p></a>
+            </div>
+            <div class="recipe">
+                <a href="recipes/pizza.html"><img src="images/pizza-2.jpg" alt="pizza"></a>
+                <a href="recipes/pizza.html"><p class="recipe-title">Pizza</p></a>
+            </div>
+            <div class="recipe">
+                <a href="recipes/cookies.html"><img src="images/cookies-avena.jpg"></a>
+                <a href="recipes/cookies.html"><p class="recipe-title">Oatmeal Cookies</p></a>
+            </div>
+        </div>
     </body>
-</html>
+</html> 
+
+
+
+
