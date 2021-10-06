@@ -161,3 +161,20 @@ nav ul .search-icon {
     display: block;
     font-weight: bold;
 }
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+}
+
+.footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
